@@ -1,0 +1,77 @@
+main {
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  height: 400px;
+  width: 22%;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+}
+
+header {
+  height: 150px;
+  background-color: #2b2b2b
+}
+
+.username {
+  float: right;
+  margin: 20px;
+  color: #2b7ba6
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: flex-start;
+}
+
+li {
+  margin: 20px;
+}
+
+nav {
+  position: relative;
+  top: 100px;
+}
+
+h1 {
+  float: right;
+  color: white;
+  margin: 20px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.date {
+  color: #ababab
+}
+
+.url {
+  margin: 20px;
+  background-color: #ababab;
+  overflow-wrap: break-word;
+  padding: 10px;
+}
+
+.playlist_name {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.number {
+  color: #2b7ba6;
+  font-size: 40;
+}
